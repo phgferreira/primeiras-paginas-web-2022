@@ -28,3 +28,4 @@
 * Logo: https://pt.freelogodesign.org/
 * Paleta de cores: https://color.adobe.com/pt/
 * Ícones: https://www.flaticon.com/search?word=favorite%20car&order_by=4
+* Imagens dos carros: https://www.movidazerokm.com.br/
