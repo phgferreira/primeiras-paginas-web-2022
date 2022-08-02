@@ -13,7 +13,7 @@
 - [ ] Filtro por nome.
 
 ## Paleta de cores
-<img src="img/paleta_cores.png" alt="Print da paleta de cores">
+<img src="img/readme/paleta_cores.png" alt="Print da paleta de cores">
 <table>
     <tr>
         <td>#127369</td>
