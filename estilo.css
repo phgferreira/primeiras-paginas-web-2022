@@ -1,0 +1,12 @@
+header {
+    background: #3BD9C9;
+    display: flex;
+    max-height: 140px;
+}
+
+.logoBackground {
+    background: white;
+    /* A borda se ajusta em um círculo envolvendo a logo */
+    border-radius: 50%;
+    margin: 0 0 0 16px;
+}
