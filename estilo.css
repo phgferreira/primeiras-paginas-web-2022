@@ -1,5 +1,11 @@
+@import url('font/roboto/Roboto-Regular.ttf');
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #404040; /* paleta 5 */
+}
+
 header {
-    background: #3BD9C9;
+    background: #3BD9C9; /* paleta 3 */
     /* Faz com que a página role para baixo e o cabeçalho fique fixo */
     position: fixed;
     /* Display flexível coloca os elementos linearmente */
@@ -33,22 +39,59 @@ nav ul {
     display: flex;
     /* Justifica dentro do espaço limitado */
     justify-content: space-around;
-    /* Tamanho ajustado conforme espaço da tela - tamanho dos demais elementos */
-    width: calc(100% - 480px);
+    /* Tamanho ajustado conforme espaço da tela - tamanho dos demais elementos laterais */
+    width: calc(100% - 140px - 46px);
+    font-size: 13pt;
+    font-weight: bold;
     padding: 10px;
+}
+
+nav ul li input[type=button] {
+    height: 42px;
+    padding: 0 20px;
+    font-size: 11pt;
+    border: none;
+    background: transparent;
+}
+
+/* Ao colocar o cursor em cima */
+nav ul li input[type=button]:hover {
+    /* Faz a transição ser gradual em 500ms */
+    transition: 500ms;
+    /* Destaca a borda de baixo */
+    border-bottom: solid 5px orange;
+    /* Amplia 20% */
+    transform: scale(1.2);
+}
+
+nav ul li input[type=button]:active {
+    /* Transação mais rápida que o hover */
+    transition: 50ms;
+    border: none;
+    border-radius: 10px;
+    /* Torna o fundo 50% opaco */
+    background: rgba(255,255,255,0.5);
 }
 
 .pesquisaForm {
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 16px;
     padding: 10px;
 }
 
+.pesquisaForm label {
+    /* Esse display block é para o label ficar em cima da caixa de pesquisa */
+    display: block;
+    /* Um pequeno espaçamento em baixo */
+    margin-bottom: 5px;
+    font-size: 11pt;
+}
+
 .pesquisaForm input {
-    /* O flex no input faz com que ele fique em baixo do label */
-    display: flex;
-    border-radius: 5px;
-    width: 250px;
+    border-radius: 10px;
+    width: 300px;
     height: 44px;
+    font-size: 11pt;
+    padding: 0 20px;
 }
