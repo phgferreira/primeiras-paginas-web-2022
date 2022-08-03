@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="icon" type="image/png" href="/img/logos/logo_original.png">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilo.css">
 
     <title>Easy One</title>
@@ -15,11 +16,9 @@
     <header>
 
       <div class="logoBackground">
-        <img src="img/logos/logo_sem_fundo.png" alt="Logo da Easy One" width="150px" height="150px">
+        <h1><img src="img/logos/logo_sem_fundo.png" alt="Logo da Easy One" class="logo"></h1>
       </div>
-
-      <h2>Carros por Assinatura</h2>
-
+      
       <nav>
         <ul>
           <li>Compactos</li>
@@ -29,13 +28,16 @@
           <li>Blindados</li>
         </ul>
       </nav>
-
-      <form>
-        <labe>Digite o nome do carro</labe>
-        <input type="text" placeholder="Qual carro está procurando?">
+      
+      <form class="pesquisaForm">
+        <labe for="search">Digite o nome do carro</labe>
+        <input id="search" name="search" type="text" placeholder="Qual carro está procurando?">
       </form>
 
     </header>
-    <main></main>
+
+    <main>
+    </main>
+
   </body>
 </html>

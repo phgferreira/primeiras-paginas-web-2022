@@ -1,12 +1,54 @@
 header {
     background: #3BD9C9;
+    /* Faz com que a página role para baixo e o cabeçalho fique fixo */
+    position: fixed;
+    /* Display flexível coloca os elementos linearmente */
     display: flex;
-    max-height: 140px;
+    width: 100%;
 }
 
 .logoBackground {
     background: white;
     /* A borda se ajusta em um círculo envolvendo a logo */
     border-radius: 50%;
-    margin: 0 0 0 16px;
+    margin-left: 16px;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+}
+
+.tituloPrincipal {
+    margin: 2em auto;
+}
+
+nav ul {
+    position: absolute;
+    /* Na parte de baixo do header com uma distancia para baixo de 26px */
+    bottom: 0;
+    /* Espaçado para a logo + margem esquerda */
+    left: calc(140px + 16px);
+    /* Tonar a posição dos elementos flexível */
+    display: flex;
+    /* Justifica dentro do espaço limitado */
+    justify-content: space-around;
+    /* Tamanho ajustado conforme espaço da tela - tamanho dos demais elementos */
+    width: calc(100% - 480px);
+    padding: 10px;
+}
+
+.pesquisaForm {
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    padding: 10px;
+}
+
+.pesquisaForm input {
+    /* O flex no input faz com que ele fique em baixo do label */
+    display: flex;
+    border-radius: 5px;
+    width: 250px;
+    height: 44px;
 }
