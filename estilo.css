@@ -154,3 +154,7 @@ main {
     margin-bottom: 15px;
 }
 
+.cartaoModelo {
+    visibility: hidden;
+}
+
