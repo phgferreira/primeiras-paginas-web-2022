@@ -6,7 +6,7 @@
 - [x] Modelo básico no Figma: https://www.figma.com/file/7Xhdm8LsVsZEI0pGh978yf/EasyOne-Site?node-id=3%3A2
 - [x] Cabeçalho;
     - [ ] Responsivo para mobile
-- [ ] Carregar dados de veículos;
+- [x] Carregar dados de veículos;
 - [x] Cartão de produtos;
 - [x] Ajuste do corpo e conteúdo;
 - [x] Reações de estilo;
