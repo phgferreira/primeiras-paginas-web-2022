@@ -4,7 +4,8 @@
 
 ## Versão 1.0
 - [x] Modelo básico no Figma: https://www.figma.com/file/7Xhdm8LsVsZEI0pGh978yf/EasyOne-Site?node-id=3%3A2
-- [ ] Cabeçalho;
+- [x] Cabeçalho;
+    - [ ] Responsivo para mobile
 - [ ] Carregar dados de veículos;
 - [ ] Cartão de produtos;
 - [ ] Ajuste do corpo e conteúdo;

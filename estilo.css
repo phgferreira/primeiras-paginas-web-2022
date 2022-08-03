@@ -13,6 +13,7 @@ header {
     width: 100%;
 }
 
+/* ############ LOGO ############ */
 .logoBackground {
     background: white;
     /* A borda se ajusta em um círculo envolvendo a logo */
@@ -25,10 +26,7 @@ header {
     height: 140px;
 }
 
-.tituloPrincipal {
-    margin: 2em auto;
-}
-
+/* ############ MENU ############ */
 nav ul {
     position: absolute;
     /* Na parte de baixo do header com uma distancia para baixo de 26px */
@@ -62,6 +60,7 @@ nav ul li input[type=button]:hover {
     border-bottom: solid 5px orange;
     /* Amplia 20% */
     transform: scale(1.2);
+    font-weight: bold;
 }
 
 nav ul li input[type=button]:active {
@@ -73,6 +72,7 @@ nav ul li input[type=button]:active {
     background: rgba(255,255,255,0.5);
 }
 
+/* ############ BARRA DE PESQUISA ############ */
 .pesquisaForm {
     position: absolute;
     top: 0;
@@ -92,6 +92,25 @@ nav ul li input[type=button]:active {
     border-radius: 10px;
     width: 300px;
     height: 44px;
-    font-size: 11pt;
+    font-size: 13pt;
     padding: 0 20px;
+}
+
+/* ############ CONTEÚDO PRINCIPAL ############ */
+main {
+    /* Afasta em cima para sair da frente do cabeçalho que está fixo */
+    padding-top: 150px;
+}
+
+.listaCarros {
+    border: solid 2px green;
+}
+
+.cartao {
+    width: 350px;
+    border: solid 5px yellow;
+}
+
+.fotoCarro {
+    width: 350px;
 }
