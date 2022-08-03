@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #404040; /* paleta 5 */
+    background: #F2F2F2;
 }
 
 header {
@@ -39,6 +40,8 @@ nav ul {
     justify-content: space-around;
     /* Tamanho ajustado conforme espaço da tela - tamanho dos demais elementos laterais */
     width: calc(100% - 140px - 46px);
+    /* Define um limite para expansão do menu */
+    max-width: 800px;
     font-size: 13pt;
     font-weight: bold;
     padding: 10px;
@@ -103,14 +106,29 @@ main {
 }
 
 .listaCarros {
+    display: flex;
+    justify-content: center;
+}
+
+.cartaoCarro {
+    /* Para os cartões ficarem alinhados mas se necessário quebrar para a linha de baixo */
+    display: inline-block;
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    margin: 5px 15px;
+}
+.cartaoCarro img {
+    width: 100%;
     border: solid 2px green;
 }
 
-.cartao {
-    width: 350px;
-    border: solid 5px yellow;
+.cartaoCarro h4 {
+    text-align: center;
 }
 
-.fotoCarro {
-    width: 350px;
+.cartaoCarro p {
+    text-align: justify;
+    padding: 10px;
 }
+
