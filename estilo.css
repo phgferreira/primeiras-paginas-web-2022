@@ -126,6 +126,7 @@ main {
     transform: scale(1.05);
     transition: 250ms;
 }
+
 .carroFavorito {
     position: absolute;
     width: 44px;
@@ -136,6 +137,7 @@ main {
 .carroFavorito:hover {
     transform: scale(1.2);
     transition: 250ms;
+    cursor: pointer;
 }
 
 .fotoCarro {

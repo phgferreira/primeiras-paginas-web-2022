@@ -10,7 +10,8 @@
 - [x] Cartão de produtos;
 - [x] Ajuste do corpo e conteúdo;
 - [x] Reações de estilo;
-- [ ] Favoritar carro;
+- [x] Favoritar carro;
+    - [ ] Substituíção por input check (será melhor)
 - [ ] Filtro por categoria;
 - [ ] Filtro por nome.
 

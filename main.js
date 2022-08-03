@@ -1,3 +1,8 @@
+
+// Adiciona a URL no início para poder comparar com o src da imagem depois
+const isFavorito = window.location.href + '/img/icones/favorite_car_on.png';
+const isNotFavorito = window.location.href + '/img/icones/favorite_car_off.png';
+
 // Função que modifica um cartão de acordo com os dados do carro
 function modificaCartao(cartao, carro) {
 
@@ -10,6 +15,12 @@ function modificaCartao(cartao, carro) {
     cartao.querySelector('.fotoCarro').setAttribute('alt', `Foto de ${carro.nome}`)
     cartao.querySelector('h3').innerHTML = carro.nome;
     cartao.querySelector('p').innerHTML = carro.descricao;
+
+    // Programa o botão de favorito
+    const favorito = cartao.querySelector('.carroFavorito');
+    favorito.onclick = function () {
+        favorito.setAttribute('src', (favorito.src === isNotFavorito) ? isFavorito : isNotFavorito)
+    };
 
 }
 
