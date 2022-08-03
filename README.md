@@ -9,7 +9,7 @@
 - [ ] Carregar dados de veículos;
 - [x] Cartão de produtos;
 - [x] Ajuste do corpo e conteúdo;
-- [ ] Reações de estilo;
+- [x] Reações de estilo;
 - [ ] Filtro por categoria;
 - [ ] Filtro por nome.
 
