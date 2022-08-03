@@ -10,6 +10,7 @@
 - [x] Cartão de produtos;
 - [x] Ajuste do corpo e conteúdo;
 - [x] Reações de estilo;
+- [ ] Favoritar carro;
 - [ ] Filtro por categoria;
 - [ ] Filtro por nome.
 
