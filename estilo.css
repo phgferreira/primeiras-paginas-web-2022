@@ -107,28 +107,29 @@ main {
 
 .listaCarros {
     display: flex;
-    justify-content: center;
+    /* Alinha de forma justa modificando o espaçamento entre os elementos */
+    justify-content: space-around;
+    /* Faz com que, ao diminuir a tela, passe elementos para linha de baixo */
+    flex-wrap: wrap;
 }
 
 .cartaoCarro {
-    /* Para os cartões ficarem alinhados mas se necessário quebrar para a linha de baixo */
-    display: inline-block;
-    width: 30%;
+    width: 300px;
     background: white;
     border-radius: 10px;
-    margin: 5px 15px;
+    margin: 15px 15px;
 }
 .cartaoCarro img {
     width: 100%;
-    border: solid 2px green;
 }
 
-.cartaoCarro h4 {
+.cartaoCarro h3 {
     text-align: center;
 }
 
 .cartaoCarro p {
     text-align: justify;
+    font-size: 10pt;
     padding: 10px;
 }
 
