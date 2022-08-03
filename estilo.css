@@ -9,6 +9,8 @@ header {
     background: #3BD9C9; /* paleta 3 */
     /* Faz com que a página role para baixo e o cabeçalho fique fixo */
     position: fixed;
+    /* Z-Index faz com que o header sobreponha qualquer outro elemento position:absolute do conteúdo (ed: .carroFavorito) */
+    z-index: 1;
     /* Display flexível coloca os elementos linearmente */
     display: flex;
     width: 100%;
@@ -114,22 +116,32 @@ main {
 }
 
 .cartaoCarro {
-    width: 300px;
+    width: 250px;
     background: white;
     border-radius: 10px;
     margin: 15px 15px;
 }
-.cartaoCarro img {
+
+.carroFavorito {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    margin: 10px 0 0 10px;
+}
+
+.fotoCarro {
     width: 100%;
 }
 
 .cartaoCarro h3 {
     text-align: center;
+    margin: 10px 0 15px;
 }
 
 .cartaoCarro p {
     text-align: justify;
     font-size: 10pt;
-    padding: 10px;
+    padding: 0 10px;
+    margin-bottom: 15px;
 }
 

@@ -7,7 +7,7 @@
 - [x] Cabeçalho;
     - [ ] Responsivo para mobile
 - [ ] Carregar dados de veículos;
-- [ ] Cartão de produtos;
+- [x] Cartão de produtos;
 - [x] Ajuste do corpo e conteúdo;
 - [ ] Reações de estilo;
 - [ ] Filtro por categoria;
