@@ -20,7 +20,7 @@ const carros = [
     {nome: "BYD TAN EV 4x4",    categoria: "Elétricos",  descricao: "TAN EV 4x4 (Elétrico)",                     foto: "img/eletricos/byd_tan.png"},
     {nome: "Peugeot E-208",     categoria: "Elétricos",  descricao: "e-208 GT 5p Aut. (Elétrico)",               foto: "img/eletricos/peugeot_e_208.png"},
 
-    {nome: "Chery Tiggo",       categoria: "Blindados",  descricao: "Tiggo 8 TXS 1.6 16V TGDi Aut. (Blindado)",  foto: "/img/blindados/chery_tiggo.png"}
+    {nome: "Chery Tiggo",       categoria: "Blindados",  descricao: "Tiggo 8 TXS 1.6 16V TGDi Aut. (Blindado)",  foto: "img/blindados/chery_tiggo.png"}
 
 ];
 
