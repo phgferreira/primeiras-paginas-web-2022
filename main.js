@@ -1,26 +1,26 @@
 // Lista de carros e suas caracteristicas
 const carros = [
-    {nome: "Chevrolet Onix",    categoria: "Compactos",  descricao: "ONIX HATCH LT 1.0 12V Flex 5p Mec.",        foto: "/img/compactos/chevrolet_onix.webp"},
-    {nome: "Fiat Mobi",         categoria: "Compactos",  descricao: "MOBI Like 1.0 Fire Flex 5p.",               foto: "/img/compactos/fiat_mobi.webp"},
-    {nome: "Hyundai HB20",      categoria: "Compactos",  descricao: "HB20 Vision 1.0 TB Flex 12V Aut.",          foto: "/img/compactos/hyundai_hb20.webp"},
-    {nome: "Peugeot 208",       categoria: "Compactos",  descricao: "208 Like 1.0 Flex 6V 5p Mec.",              foto: "/img/compactos/peugeot_208.webp"},
-    {nome: "Renault Kwid",      categoria: "Compactos",  descricao: "KWID ZEN 1.0 FLEX 12V 5P MEC. (SN)",        foto: "/img/compactos/renault_kwid.webp"},
-    {nome: "Volkswagen Gol",    categoria: "Compactos",  descricao: "Gol 1.0 Flex 12V 5p.",                      foto: "/img/compactos/volkswagen_gol.webp"},
+    {nome: "Chevrolet Onix",    categoria: "Compactos",  descricao: "ONIX HATCH LT 1.0 12V Flex 5p Mec.",        foto: "/img/compactos/chevrolet_onix.png"},
+    {nome: "Fiat Mobi",         categoria: "Compactos",  descricao: "MOBI Like 1.0 Fire Flex 5p.",               foto: "/img/compactos/fiat_mobi.png"},
+    {nome: "Hyundai HB20",      categoria: "Compactos",  descricao: "HB20 Vision 1.0 TB Flex 12V Aut.",          foto: "/img/compactos/hyundai_hb20.png"},
+    {nome: "Peugeot 208",       categoria: "Compactos",  descricao: "208 Like 1.0 Flex 6V 5p Mec.",              foto: "/img/compactos/peugeot_208.png"},
+    {nome: "Renault Kwid",      categoria: "Compactos",  descricao: "KWID ZEN 1.0 FLEX 12V 5P MEC. (SN)",        foto: "/img/compactos/renault_kwid.png"},
+    {nome: "Volkswagen Gol",    categoria: "Compactos",  descricao: "Gol 1.0 Flex 12V 5p.",                      foto: "/img/compactos/volkswagen_gol.png"},
 
-    {nome: "Fiat Cronos",       categoria: "Sedans",     descricao: "CRONOS DRIVE 1.3 8V Flex.",                 foto: "/img/sedans/fiat_cronos.webp"},
-    {nome: "Hyundai HB2S",      categoria: "Sedans",     descricao: "HB20S Vision 1.0 Flex 12V Mec.",            foto: "/img/sedans/hyundai_hb20s.webp"},
-    {nome: "Volkswagen Voyage", categoria: "Sedans",     descricao: "VOYAGE 1.0 Flex 12V 4p.",                   foto: "/img/sedans/volkswagen_voyage.webp"},
+    {nome: "Fiat Cronos",       categoria: "Sedans",     descricao: "CRONOS DRIVE 1.3 8V Flex.",                 foto: "/img/sedans/fiat_cronos.png"},
+    {nome: "Hyundai HB2S",      categoria: "Sedans",     descricao: "HB20S Vision 1.0 Flex 12V Mec.",            foto: "/img/sedans/hyundai_hb20s.png"},
+    {nome: "Volkswagen Voyage", categoria: "Sedans",     descricao: "VOYAGE 1.0 Flex 12V 4p.",                   foto: "/img/sedans/volkswagen_voyage.png"},
 
-    {nome: "Fiat Pulse",        categoria: "SUVs",       descricao: "PULSE DRIVE 1.0 Turbo 200 Flex Aut.",       foto: "/img/suvs/fiat_pulse.webp"},
-    {nome: "Hyundai Creta",     categoria: "SUVs",       descricao: "Creta Action 1.6 16V Flex Aut.",            foto: "/img/suvs/hyundai_creta.webp"},
-    {nome: "Jeep Renegade",     categoria: "SUVs",       descricao: "Renegade Long. T270 1.3 TB 4x2 Flex Aut.",  foto: "/img/suvs/jeep_renegade.webp"},
-    {nome: "Nissan Kicks",      categoria: "SUVs",       descricao: "KICKS Sense 1.6 16V Flex Aut.",             foto: "/img/suvs/nissan_kicks.webp"},
-    {nome: "Peugeot 2008",      categoria: "SUVs",       descricao: "2008 Allure Essencial 1.6 Flex 16V Aut.",   foto: "/img/suvs/peugeot_2008.webp"},
+    {nome: "Fiat Pulse",        categoria: "SUVs",       descricao: "PULSE DRIVE 1.0 Turbo 200 Flex Aut.",       foto: "/img/suvs/fiat_pulse.png"},
+    {nome: "Hyundai Creta",     categoria: "SUVs",       descricao: "Creta Action 1.6 16V Flex Aut.",            foto: "/img/suvs/hyundai_creta.png"},
+    {nome: "Jeep Renegade",     categoria: "SUVs",       descricao: "Renegade Long. T270 1.3 TB 4x2 Flex Aut.",  foto: "/img/suvs/jeep_renegade.png"},
+    {nome: "Nissan Kicks",      categoria: "SUVs",       descricao: "KICKS Sense 1.6 16V Flex Aut.",             foto: "/img/suvs/nissan_kicks.png"},
+    {nome: "Peugeot 2008",      categoria: "SUVs",       descricao: "2008 Allure Essencial 1.6 Flex 16V Aut.",   foto: "/img/suvs/peugeot_2008.png"},
 
-    {nome: "BYD TAN EV 4x4",    categoria: "Elétricos",  descricao: "TAN EV 4x4 (Elétrico)",                     foto: "/img/eletricos/byd_tan.webp"},
-    {nome: "Peugeot E-208",     categoria: "Elétricos",  descricao: "e-208 GT 5p Aut. (Elétrico)",               foto: "/img/eletricos/peugeot_e_208.webp"},
+    {nome: "BYD TAN EV 4x4",    categoria: "Elétricos",  descricao: "TAN EV 4x4 (Elétrico)",                     foto: "/img/eletricos/byd_tan.png"},
+    {nome: "Peugeot E-208",     categoria: "Elétricos",  descricao: "e-208 GT 5p Aut. (Elétrico)",               foto: "/img/eletricos/peugeot_e_208.png"},
 
-    {nome: "Chery Tiggo",       categoria: "Blindados",  descricao: "Tiggo 8 TXS 1.6 16V TGDi Aut. (Blindado)",  foto: "/img/blindados/chery_tiggo.webp"}
+    {nome: "Chery Tiggo",       categoria: "Blindados",  descricao: "Tiggo 8 TXS 1.6 16V TGDi Aut. (Blindado)",  foto: "/img/blindados/chery_tiggo.png"}
 
 ];
 
