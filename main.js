@@ -31,11 +31,15 @@ const modelo = document.querySelector('.cartaoModelo');
 // OBS: Essa lista é um único elemento
 const lista = document.querySelector('.listaCarros');
 
-function loadCarros(categoria) {
+function loadCarros(pesquisa) {
     
-    // Filtra: Se categoria for nula então passa, senão verifica categoria
+    // Filtra: Se a pesquisa for nula então passa, senão verifica categoria ou nome ou descricao
     carros.filter( function(carro) {
-        return (categoria === null) ? true : carro.categoria === categoria;
+        return (pesquisa === null || pesquisa == 'undefined') ? true : (
+            carro.categoria.toUpperCase().includes(pesquisa.toUpperCase()) ||
+            carro.nome.toUpperCase().includes(pesquisa.toUpperCase()) ||
+            carro.descricao.toUpperCase().includes(pesquisa.toUpperCase())
+        );
     } )
     // Para cada item da lista vamos realizar o seguinte procedimento ...
     .forEach(carro => {
@@ -83,7 +87,7 @@ function modificaCartao(cartao, carro) {
 }
 
 // ##################### CONFIGURAÇÃO DO FILTRO CATEGORIA #####################
-const menu = document.querySelectorAll('input[type="button"');
+const menu = document.querySelectorAll('nav ul li input[type="button"');
 menu.forEach(item => {
     item.onclick = function () {
         // Zera a lista de carros e volta com o modelo para recarregar a página
@@ -93,3 +97,13 @@ menu.forEach(item => {
         loadCarros(item.value);
     }
 });
+
+// ##################### CONFIGURAÇÃO DO FILTRO PESQUISA #####################
+const inputPesquisa = document.querySelector('.pesquisaForm input[type="text"]');
+inputPesquisa.onkeyup = function () {
+        // Zera a lista de carros e volta com o modelo para recarregar a página
+        lista.innerHTML = "";
+        lista.appendChild(modelo);
+        // Passa o valor do botão do menu como atributo para a função recarregar os carros da págian
+        loadCarros(inputPesquisa.value);
+}

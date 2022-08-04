@@ -13,7 +13,7 @@
 - [x] Favoritar carro;
     - [ ] Substituíção por input check (será melhor)
 - [x] Filtro por categoria;
-- [ ] Filtro por nome.
+- [x] Filtro por nome e descricao.
 
 ## Paleta de cores
 <img src="img/readme/paleta_cores.png" alt="Print da paleta de cores">
