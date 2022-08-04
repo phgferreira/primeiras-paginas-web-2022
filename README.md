@@ -12,7 +12,7 @@
 - [x] Reações de estilo;
 - [x] Favoritar carro;
     - [ ] Substituíção por input check (será melhor)
-- [ ] Filtro por categoria;
+- [x] Filtro por categoria;
 - [ ] Filtro por nome.
 
 ## Paleta de cores

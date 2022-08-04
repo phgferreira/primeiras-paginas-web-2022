@@ -157,6 +157,6 @@ main {
 }
 
 .cartaoModelo {
-    visibility: hidden;
+    display: none;
 }
 
