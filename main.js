@@ -1,7 +1,6 @@
 // Lista de carros e suas caracteristicas
 const carros = [
     {nome: "Chevrolet Onix",    categoria: "Compactos",  descricao: "ONIX HATCH LT 1.0 12V Flex 5p Mec.",        foto: "img/compactos/chevrolet_onix.png"},
-    {nome: "Fiat Mobi",         categoria: "Compactos",  descricao: "MOBI Like 1.0 Fire Flex 5p.",               foto: "img/compactos/fiat_mobi.png"},
     {nome: "Hyundai HB20",      categoria: "Compactos",  descricao: "HB20 Vision 1.0 TB Flex 12V Aut.",          foto: "img/compactos/hyundai_hb20.png"},
     {nome: "Peugeot 208",       categoria: "Compactos",  descricao: "208 Like 1.0 Flex 6V 5p Mec.",              foto: "img/compactos/peugeot_208.png"},
     {nome: "Renault Kwid",      categoria: "Compactos",  descricao: "KWID ZEN 1.0 FLEX 12V 5P MEC. (SN)",        foto: "img/compactos/renault_kwid.png"},
